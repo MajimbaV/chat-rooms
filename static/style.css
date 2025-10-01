@@ -1,0 +1,79 @@
+.joinContainer {
+    border: 2px solid #ccc;
+    width: 300px;
+    overflow: hidden;
+    margin: 50px auto; 
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#joinForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinContainer input {
+    padding: 8px;
+    margin: 8px 0;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.joinContainer input.inactive {
+    display: none;
+}
+
+.joinContainer button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.messageLog {
+    flex-grow: 1;
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.messageInput {
+    padding: 12px;
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.messageLog ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.send-button {
+    padding: 12px 16px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #218838;
+}

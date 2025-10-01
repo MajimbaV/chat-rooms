@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat</title>
+</head>
+<body>
+    <h1>Bem-vindo à Sala <span id="roomName"></span>!</h1>
+    <div class="chat-container">
+        <div class="messageLog">
+            <ul id="messagesList"></ul>
+        </div>
+        <form id="messageForm" action="">
+            <input type="text" id="messageInput" class="messageInput" placeholder="Digite sua mensagem...">
+            <button class="send-button" type="submit">Enviar</button>
+        </form>
+    </div> 
+</body>
+<script type="module" src="/chat.js"></script>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Salas de Chat</title>
+</head>
+<body>
+    <div class="joinContainer">
+        <form id="joinForm" method="post">
+            <input type="text" id="usernameInput" name="username" placeholder="Digite seu nome" required>
+            <input class="inactive" type="text" id="roomInput" name="room" placeholder="Digite o código da sala">
+            <div>
+                <button type="button" id="joinRoomButton">Entrar</button>
+                <button type="submit" id="createRoomButton">Criar Sala</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+<script type="module" src="/index.js"></script>
+</html>
